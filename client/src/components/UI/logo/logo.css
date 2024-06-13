@@ -1,0 +1,26 @@
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    text-transform: uppercase;
+}
+
+.logo .logo__main{
+    font-family: 'header-h2';
+    font-size: 22px;
+}
+
+.logo span{
+    font-family: 'text-span';
+    font-size: 10px;
+    color: #7C7B7B !important;
+}
+
+.logo--light .logo__main{
+    color: #0C0C0C;
+}
+
+.logo--dark .logo__main{
+    color: #fff;
+}

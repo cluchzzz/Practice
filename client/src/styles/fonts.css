@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "header-h1";
+    src: url("../assets/fonts/Roboto-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+}
+
+@font-face {
+    font-family: "header-h2";
+    src: url("../assets/fonts/Roboto-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+}
+
+@font-face {
+    font-family: "text-p";
+    src: url("../assets/fonts/Roboto-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: "text-span";
+    src: url("../assets/fonts/Roboto-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: "text-strong";
+    src: url("../assets/fonts/Roboto-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: "text-small";
+    src: url("../assets/fonts/Roboto-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: "buttons-button";
+    src: url("../assets/fonts/Roboto-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+}
+
+@font-face {
+    font-family: "buttons-a";
+    src: url("../assets/fonts/Roboto-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+}
+
+/* Mobile */
+
+@font-face {
+    font-family: "header-h2-mobile";
+    src: url("../assets/fonts/Roboto-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+}
+
+@font-face {
+    font-family: "text-p-mobile";
+    src: url("../assets/fonts/Roboto-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}

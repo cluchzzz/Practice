@@ -1,0 +1,36 @@
+.work-tab{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.work-tab .work-tab__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work-tab .work-tab__header .work-tab__left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.work-tab .work-tab__header .work-tab__right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.work-tab .work-tab__header .work-tab__right .button{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.work-tab .work-tab__header .work-tab__right button svg path{
+    stroke: #ffffff;
+}

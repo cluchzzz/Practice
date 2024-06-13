@@ -1,0 +1,36 @@
+.add-work{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.add-work .add-work__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-work .add-work__header .add-work__left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.add-work .add-work__header .add-work__right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.add-work .add-work__header .add-work__right .button{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.add-work .add-work__header .add-work__right button svg path{
+    stroke: #ffffff;
+}

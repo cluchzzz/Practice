@@ -1,0 +1,36 @@
+.users-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.users-form .users-form__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.users-form .users-form__header .users-form__left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.users-form .users-form__header .users-form__right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.users-form .users-form__header .users-form__right .button{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.users-form .users-form__header .users-form__right button svg path{
+    stroke: #ffffff;
+}

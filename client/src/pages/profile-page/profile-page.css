@@ -1,0 +1,75 @@
+.profile-page{
+     flex: 1;
+}
+
+.profile-page .container{
+    display: flex;
+    gap: 80px;
+}
+
+.profile-page .container .profile-page__tabs{
+    max-width: 208px;
+    width: 100%;
+}
+
+.profile-page .container .profile-page__form{
+    width: 100%;
+}
+
+.profile-page__tab-selected{
+    display: none;
+}
+
+@media screen and (max-width: 787px){
+    .profile-page .container{
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .profile-page__tab-selected{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        transition: all .2s linear;
+    }
+
+    .profile-page__tab-selected svg{
+        transition: all .2s linear;
+    }
+
+    .profile-page__tab-selected .button--default{
+        color: #0C0C0C;
+    }
+
+    .profile-page__tabs{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .profile-page__tabs .tabs-buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .profile-page__tabs button{
+        height: auto;
+    }
+
+    .profile-page__tab-selected button, .profile-page__tabs button{
+        background: none !important;
+        border: none;
+    }
+
+    .profile-page__tab-selected button, .profile-page__tabs button{
+        background: none !important;
+        border: none;
+    }
+
+    .profile-page__tabs .button--primary{
+        color: #7c7b7b;
+    }
+}

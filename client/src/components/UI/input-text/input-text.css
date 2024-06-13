@@ -1,0 +1,18 @@
+.input-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.input-text input{
+    height: 45px;
+    padding: 10px;
+    border: 2px solid #0C0C0C;
+    border-radius: 5px;
+    font-family: 'text-small';
+    color: #7C7B7B;
+    outline: none;
+    background: none;
+}

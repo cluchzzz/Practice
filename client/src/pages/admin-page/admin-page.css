@@ -1,0 +1,32 @@
+.admin-page{
+    flex: 1;
+}
+
+.admin-page .container{
+    display: flex;
+    gap: 80px;
+}
+
+.admin-page .container .admin-page__tabs{
+    max-width: 208px;
+    width: 100%;
+}
+
+.admin-page .container .admin-page__form{
+    width: 100%;
+}
+
+.admin-page .container .admin-page__tab-selected{
+    display: none;
+}
+
+.admin-page .container .admin-page__tabs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.admin-page .container .admin-page__tabs .admin-page__close-btn{
+    width: 100%;
+}

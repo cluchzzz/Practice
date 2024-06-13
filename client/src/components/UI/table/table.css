@@ -1,0 +1,54 @@
+table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table tbody tr {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    border-bottom: 1px solid #7c7b7b;
+}
+
+table tbody tr td {
+    padding: 10px 0;
+}
+
+table tbody tr span{
+    display: inline;
+}
+
+table tbody tr:first-child td {
+    padding-top: 0;
+}
+
+table tbody tr:last-child td {
+    padding-bottom: 0;
+}
+
+table tbody tr:last-child {
+    border-bottom: none;
+}
+
+table thead, table tbody tr span{
+    font-family: 'buttons-a';
+    font-size: 14px;
+    color: #0C0C0C;
+}
+
+table tbody{
+    font-family: 'text-span';
+    font-size: 14px;
+    color: #0C0C0C;
+}
+
+@media screen and (max-width: 1024px) {
+    /*table tbody tr {*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    width: 100%;*/
+    /*}*/
+
+}

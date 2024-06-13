@@ -1,0 +1,25 @@
+.footer {
+    height: 108px;
+    background: #0C0C0C;
+    text-align: center;
+}
+
+.footer__head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.footer__nav a:hover{
+    color: #fff;
+}
+
+.footer span{
+    color: #7C7B7B;
+}
